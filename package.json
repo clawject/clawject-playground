@@ -1,0 +1,20 @@
+{
+  "name": "clawject-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "ts-patch install -s"
+  },
+  "dependencies": {
+    "@clawject/di": "latest",
+    "@clawject/language-service": "latest"
+  },
+  "devDependencies": {
+    "typescript": "5.3.3",
+    "ts-patch": "^3.1.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
