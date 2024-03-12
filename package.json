@@ -7,12 +7,12 @@
     "postinstall": "ts-patch install -s"
   },
   "dependencies": {
-    "@clawject/di": "latest",
-    "@clawject/language-service": "latest"
+    "@clawject/di": "latest"
   },
   "devDependencies": {
     "typescript": "5.3.3",
-    "ts-patch": "^3.1.2"
+    "ts-patch": "^3.1.2",
+    "@clawject/language-service": "latest"
   },
   "keywords": [],
   "author": "",

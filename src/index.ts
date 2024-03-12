@@ -1,10 +1,14 @@
 import { Bean, ClawjectApplication } from "@clawject/di";
 
+class Foo {
+    constructor(private bar: Bar) {}
+}
+class Bar {
+    constructor(private foo: Foo) {}
+}
+
 @ClawjectApplication
 class ApplicationContext {
-    @Bean data(
-        n: number
-    ) {
-        return 123;
-    }
+    foo = Bean(Foo);
+    bar = Bean(Bar);
 }
